@@ -28,6 +28,7 @@ margin: 0 0 35px 0;
 
 .home {
 	text-align: center;
+	padding: 0 0 70px 0;
 }
 
 .home-title {
@@ -45,7 +46,7 @@ margin:45px 0 25px 0 ;
 	object-fit: cover;
 }
 
-@media (max—width:480px){}
+@media (max—width:480px){
 .home {
 text-align:left;
 }
@@ -59,4 +60,4 @@ text-align:left;
 .home—description {
 font-size: 14px;
 
-}
+}}

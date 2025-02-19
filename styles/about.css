@@ -1,0 +1,62 @@
+.about {
+	background-color: var(--bg-main-grey);
+	padding: 60px 30px 100px 30px;
+	text-align: center;
+	color: var(--color-main—black);
+}
+
+.about-title {
+	src: url(/fonts/Roboto-Bold.woff2);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 34px;
+	color: var(--color-main—black);
+	margin: 0 0 42px 0;
+}
+
+.about-subtitle-ru,
+.about-subtitle-en {
+	src: url(/fonts/roboto-medium-webfont.woff2);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: var(--color-main—black);
+	margin: 0 auto 15px;
+	max-width: 780px;
+}
+
+.about-description-en,
+.about-description-ru {
+	src: url(/fonts/roboto-medium-webfont.woff2);
+	font-family: 'Roboto', sans-serif;
+	font-style: 18px;
+	font-weight: 500;
+	margin: 0 auto 15px;
+	text-align: justify;
+	max-width: 780px;
+	color: var(--color-main—black);
+}
+
+.about-subtitle-en {
+	margin: 15px auto 15px;
+}
+
+.about-description-en {
+	margin: auto;
+}
+
+@media (max—width:480px) {
+
+	.about-subtitle-ru,
+	.about-subtitle-en, 
+	.about-description-en,
+	.about-description-ru{
+		src: url(/fonts/roboto-medium-webfont.woff2);
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		
+		;
+	}
+
+
+}

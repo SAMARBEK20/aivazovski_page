@@ -30,10 +30,13 @@ align-items: center;
 .nav-link {
 color: var(--font—color-grey);
 src: url(../fonts/Roboto-Bold.woff2);
+font-family: "Roboto", sans-serif;
 font-size: 18px;
 font-weight: 700;
 position: relative;
-}
+}	
+
+
 
 .nav-link::after{
 	content:"";
